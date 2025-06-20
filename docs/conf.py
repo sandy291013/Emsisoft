@@ -1,4 +1,4 @@
-project = 'PeacocktvGuide12'
+project = 'Emsisoft'
 author = 'Your Name'
 release = '1.0'
 
@@ -8,3 +8,7 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+html_js_files = [
+    'chatbot.js',
+]
